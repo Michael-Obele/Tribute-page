@@ -17,7 +17,12 @@ body {
     justify-content: center;
 }
 
-header, main {}
+.btn{
+    margin-top: 15px;
+    width: 12vw;
+    height: 9vh;
+    border-radius: 4%;
+}
 
 #title {
     text-align: center;
@@ -29,11 +34,21 @@ section>h2{
 p {
     padding: 5px 12px;
 }
-.center{
+.t-center{
     text-align: center;
     text-transform: capitalize;
     font-size: larger;
     font-weight: bolder;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.p-img{
+    width: 45vw;
+    height: 70vh;
 }
 
 footer {
