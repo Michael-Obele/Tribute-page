@@ -12,3 +12,16 @@ function list(...arr){
 
 /*<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>*/
 
+var btn = document.getElementById('btn');
+
+function visible(id) {
+    var e = document.getElementById(id);
+    if(e.style.display == 'inline-table') {
+      e.style.display = 'none';
+    }
+    else {
+      e.style.display = 'inline-table';
+    }
+    console.log('clicked');
+    return;
+  }
