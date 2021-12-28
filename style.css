@@ -29,7 +29,9 @@ body {
   height: 9vh;
   border-radius: 4%;
 }
-
+#text{
+  display: none;
+}
 #title {
   text-align: center;
 }
